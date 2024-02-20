@@ -45,4 +45,7 @@ public class EventController {
         }
         return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
+
+    public EventController() {
+    }
 }
